@@ -23,3 +23,51 @@ body {
   width: calc(100% / 3);
   padding: 10px;
 }
+
+/* product cards */
+.card-img {
+  position: relative;
+}
+.card-img .heart {
+  position: absolute;
+  right: 0;
+  top: 10px;
+
+  font-size: 18px;
+  background-color: #fff;
+  padding: 5px 10px;
+
+  cursor: pointer;
+}
+.card-img .heart:hover {
+  color: red;
+}
+.card-img .badge {
+  position: absolute;
+  bottom: 20px;
+}
+.discount {
+  background-color: red;
+  color: #fff;
+  padding: 3px;
+}
+.eco {
+  background-color: #026b02;
+  color: #fff;
+  padding: 3px;
+}
+
+.card-img img {
+  width: 100%;
+  display: block;
+}
+
+.brand {
+  font-size: 12px;
+}
+.card-text h4 {
+  text-transform: uppercase;
+}
+.discounted-price {
+  color: red;
+}
