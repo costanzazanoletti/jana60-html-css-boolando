@@ -28,6 +28,24 @@ body {
 .card-img {
   position: relative;
 }
+
+.card-img img {
+  width: 100%;
+}
+
+.card-img .primary-img {
+  display: block;
+}
+.card-img:hover .primary-img {
+  display: none;
+}
+.card-img .secondary-img {
+  display: none;
+}
+.card-img:hover .secondary-img {
+  display: block;
+}
+
 .card-img .heart {
   position: absolute;
   right: 0;
@@ -55,11 +73,6 @@ body {
   background-color: #026b02;
   color: #fff;
   padding: 3px;
-}
-
-.card-img img {
-  width: 100%;
-  display: block;
 }
 
 .brand {
